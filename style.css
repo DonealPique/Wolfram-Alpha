@@ -1,0 +1,297 @@
+header {
+  border: 1px rgb(230, 224, 224);
+  border-bottom-style: solid;
+  display: flex;
+  justify-content: right;
+}
+
+header>p {
+  color: rgb(78, 75, 75);
+  margin-right: 24px;
+}
+
+header>button {
+  width: 70px;
+  height: 30px;
+  position: relative;
+  top: 11px;
+  margin-right: 25px;
+  background-color: white;
+  border-radius: 5px;
+  border-color: #F96932;
+  color: #F96932;
+}
+
+.arrow {
+  height: 100%;
+  margin-left: 6px;
+  width: 11px;
+}
+
+span {
+  float: right;
+}
+
+.logo {
+  width: 25%;
+}
+
+section>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+#zoekbalk {
+  margin-top: 15px;
+  width: 50%;
+  height: 30px;
+  border: solid 2px;
+  border-radius: 8px;
+  border-color: #f96932;
+  box-shadow: 0 0 0 3px #ffc230;
+}
+
+#Stuurknop {
+  background-color: #F96932;
+  border-radius: 3px;
+  border: 1px;
+  color: white;
+  position: relative;
+  bottom: 27px;
+  left: 370px;
+}
+
+.box {
+  height: 40px;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: #fffcfc;
+  background-color: #fff8f8;
+  position: relative;
+  right: 278px;
+  bottom: 15px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box>img {
+  width: 30px;
+  height: 30px;
+}
+
+.box>p {
+  font-size: 10px;
+  margin: 6px 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Natural {
+  color: #F96932;
+}
+
+.math {
+  color: #6C5694;
+}
+
+.box2>span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 12px;
+  margin-right: 300px;
+  position: relative;
+  bottom: 40px;
+  left: 480px;
+}
+
+.box2>span>li {
+  display: flex;
+  width: 51px;
+  margin-right: 30px;
+  font-size: 8px;
+  position: relative;
+  top: 23px;
+  color: #777777;
+}
+
+.box2>span>li>img {
+  width: 20px;
+  margin-right: 10px;
+  position: relative;
+  bottom: 4px;
+}
+
+.boxtekst {
+  color: #777777;
+  position: relative;
+  bottom: 20px;
+  margin-bottom: 20px;
+}
+
+table,
+tr,
+th,
+td {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  width: 1200px;
+  margin-left: 55px;
+}
+
+td {
+  border: solid 1px;
+  border-radius: 2px;
+  border-color: #c6c5c5;
+  width: 400px;
+  height: 60px;
+  color: #777777;
+}
+
+th:first-child {
+  font-size: 20px;
+  color: #9371B5;
+}
+
+th:nth-child(2) {
+  font-size: 20px;
+  color: #369C63;
+}
+
+th:nth-child(3) {
+  font-size: 20px;
+  color: #DC565D;
+}
+
+th:nth-child(4) {
+  font-size: 20px;
+  color: #00ADB8;
+}
+
+.topics>td:first-child {
+  border-color: #9371B5;
+}
+
+.topics>td:first-child:hover {
+  color: #9371B5;
+}
+
+.topics>td:nth-child(2) {
+  border-color: #369C63;
+}
+
+.topics>td:nth-child(2):hover {
+  color: #369C63;
+}
+
+.topics>td:nth-child(3) {
+  border-color: #DC565D;
+}
+
+.topics>td:nth-child(3):hover {
+  color: #DC565D;
+}
+
+.topics>td:nth-child(4) {
+  border-color: #00ADB8;
+}
+
+.topics>td:nth-child(4):hover {
+  color: #00ADB8;
+}
+
+tr>td>img {
+  width: 30px;
+  margin-right: 8px;
+}
+
+.section-container {
+  color: #777777;
+  background-color: #fffcfc;
+}
+
+.section-tekst {
+  position: relative;
+  top: 60px;
+}
+
+.linebreak1 {
+  margin-top: 0px;
+  position: relative;
+  top: 130px;
+}
+
+.linebreak2 {
+  margin-bottom: 0px;
+  position: relative;
+  bottom: 70px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer>section>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+footer>section>div>p {
+  color: #777777;
+  margin: 0 5px;
+}
+
+a {
+  color: #777777;
+  margin-top: 5px;
+}
+
+.footertekst {
+  margin-bottom: 6px;
+}
+
+.LastLine {
+  display: flex;
+  margin-top: -20px;
+}
+
+.tweedeRegel {
+  margin-top: 15px;
+  margin-bottom: -60px;
+}
+
+.FooterSection {
+  position: relative;
+  margin-top: 0;
+}
+
+.button-color1:hover{
+  color: #9371B5;
+  border-color: #9371B5;
+}
+.button-color2:hover{
+color: #369C63;
+border-color: #369C63;
+}
+.button-color3:hover{
+color: #DC565D;
+border-color: #DC565D;
+}
+.button-color4:hover{
+  color: #00ADB8;
+  border-color: #00ADB8;
+}
